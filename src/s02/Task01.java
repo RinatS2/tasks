@@ -1,6 +1,6 @@
 package s02;
 
-public class Task02 {
+public class Task01 {
     public static void main(String[] args) {
         String strOne = new String("Привет!");
         String strTwo = new String("Привет!");
