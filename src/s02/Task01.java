@@ -2,10 +2,10 @@ package s02;
 
 public class Task01 {
     public static void main(String[] args) {
-        String strOne = new String("Привет!");
+        String strOne = new String("Привеjjт!");
         String strTwo = new String("Привет!");
 
-        System.out.println(equalsStrings(strOne, strTwo));
+        System.out.println(equalsStringsTrue(strOne, strTwo));
     }
 
     public static boolean equalsStrings(String strOne, String strTwo) {
@@ -14,5 +14,9 @@ public class Task01 {
             b = true;
         }
         return b;
+    }
+
+    public static boolean equalsStringsTrue(String strOne, String strTwo) {
+        return strOne.equals(strTwo);
     }
 }
