@@ -6,6 +6,7 @@ public class Task01 {
 
         System.out.println(reversString(str));
         System.out.println(reversStringWithChar(str));
+        reversStringWithCharTrue(str);
     }
 
     public static String reversString(String str) {
@@ -28,5 +29,11 @@ public class Task01 {
         }
 
         return resultSB.toString();
+    }
+
+    public static void reversStringWithCharTrue(String str) {
+        for (char i : new StringBuilder(str).reverse().toString().toCharArray()) {
+            System.out.print(i);
+        }
     }
 }
